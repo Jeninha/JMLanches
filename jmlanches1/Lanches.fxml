@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P5LanchesController">
+    <stylesheets>
+        <URL value="@lanches.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/lanches.png" />
+         </image>
+      </ImageView>
+      <TabPane layoutX="125.0" layoutY="37.0" prefHeight="295.0" prefWidth="447.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="burguer" text="Burguers">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="285.0" prefWidth="447.0">
+                     <children>
+                        <ImageView fx:id="burguersalada" fitHeight="87.0" fitWidth="99.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Lanches/BurguerSalada-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="burguerfrango" fitHeight="109.0" fitWidth="106.0" layoutX="118.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Lanches/BurguerFrango.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="burguerbacon" fitHeight="103.0" fitWidth="121.0" layoutX="215.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Lanches/BurgerBacon.png" />
+                           </image>
+                        </ImageView>
+                        <ScrollBar layoutX="426.0" layoutY="5.0" orientation="VERTICAL" prefHeight="256.0" prefWidth="14.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="sanduiches" text="Sanduíches">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab fx:id="burguer1" text="Porções">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="223.0" prefWidth="383.0">
+                     <children>
+                        <ImageView fitHeight="87.0" fitWidth="104.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="continuar" layoutX="477.0" layoutY="332.0" onAction="#bebida" prefHeight="34.0" prefWidth="95.0" text="Continuar" />
+   </children>
+</AnchorPane>
