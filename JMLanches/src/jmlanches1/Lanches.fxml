@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="522.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P5LanchesController">
+    <stylesheets>
+        <URL value="@lanches.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="369.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Lanches.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="continuar" layoutX="459.0" layoutY="338.0" onAction="#bebida" prefHeight="34.0" prefWidth="95.0" text="Continuar" />
+      <CheckBox layoutX="28.0" layoutY="23.0" mnemonicParsing="false" prefHeight="141.0" prefWidth="137.0" />
+      <CheckBox layoutX="194.0" layoutY="23.0" mnemonicParsing="false" opacity="0.88" prefHeight="141.0" prefWidth="137.0" />
+      <CheckBox layoutX="370.0" layoutY="23.0" mnemonicParsing="false" prefHeight="141.0" prefWidth="137.0" />
+      <CheckBox layoutX="14.0" layoutY="204.0" mnemonicParsing="false" opacity="0.85" prefHeight="141.0" prefWidth="137.0" />
+      <CheckBox layoutX="194.0" layoutY="197.0" mnemonicParsing="false" prefHeight="141.0" prefWidth="137.0" />
+      <CheckBox layoutX="360.0" layoutY="197.0" mnemonicParsing="false" prefHeight="141.0" prefWidth="137.0" />
+      <ScrollBar layoutX="520.0" layoutY="14.0" orientation="VERTICAL" prefHeight="326.0" prefWidth="14.0" />
+   </children>
+</AnchorPane>
