@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="357.0" prefWidth="575.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="jmlanches1.P4EscolherFoodController">
+    <stylesheets>
+        <URL value="@escolherfood.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="357.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/pedir.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="lanches" layoutX="182.0" layoutY="75.0" onAction="#lanche" prefHeight="60.0" prefWidth="155.0" text="Lanches" />
+      <Button fx:id="combos" layoutX="337.0" layoutY="172.0" onAction="#combo" prefHeight="60.0" prefWidth="155.0" text="Combos" />
+      <Button fx:id="montar" layoutX="182.0" layoutY="266.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="155.0" text="Monte seu lanche" />
+   </children>
+</AnchorPane>

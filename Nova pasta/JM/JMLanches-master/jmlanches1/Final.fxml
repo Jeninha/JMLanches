@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="370.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P7FinalController">
+    <stylesheets>
+        <URL value="@p7final.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Fundo%20mais%20claro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="362.0" fitWidth="562.0" layoutX="19.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/branco%20-%20Copia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="237.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Logo.png" />
+         </image>
+      </ImageView>
+      <MenuButton fx:id="valor" layoutX="393.0" layoutY="173.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="Pagamento">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Text fx:id="valor1" layoutX="393.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor R$:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="localizacao1" layoutX="393.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Localizaçao:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="localizacao" layoutX="393.0" layoutY="261.0" prefHeight="25.0" prefWidth="166.0" />
+      <ImageView fitHeight="150.0" fitWidth="305.0" layoutX="54.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/fundolanches.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="comida" layoutX="68.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comida:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="bebida" layoutX="68.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bebida:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="finalizar" layoutX="220.0" layoutY="306.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="160.0" text="Finalizar Pedido" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="371.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P31LoginController">
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="444.0" fitWidth="665.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Login.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="351.0" layoutY="179.0" prefHeight="25.0" prefWidth="148.0" promptText="E-mail" />
+      <PasswordField fx:id="senha" layoutX="351.0" layoutY="222.0" prefHeight="25.0" prefWidth="148.0" promptText="Senha" />
+      <Button fx:id="seguir" layoutX="362.0" layoutY="267.0" onAction="#escolherlanche" prefHeight="31.0" prefWidth="126.0" text="Login" />
+        
+   </children>
+</AnchorPane>
