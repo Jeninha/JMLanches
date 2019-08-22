@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jmlanches1;
+package jmlanches1.LoginServidor;
 
 import java.io.IOException;
 import java.net.URL;
@@ -14,7 +14,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
 /**
@@ -22,26 +21,11 @@ import javafx.stage.Stage;
  *
  * @author jenif
  */
-public class P0InicialProgramaController implements Initializable {
-
-    /**
-     * Initializes the controller class.
-     */
+public class P33LoginServidorController implements Initializable {
     
     @FXML
-    private void clicou2 (ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/jmlanches1/Entrar/Entrar.fxml"));
-        Parent root = loader.load();
-
-        Scene scene = new Scene(root);
-        Stage stage = new Stage();
-        stage.setScene(scene);
-        stage.show();
-     }
-    
-    @FXML
-    private void clicou (KeyEvent e) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/jmlanches1/Entrar/Entrar.fxml"));
+    private void loginServidor(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("jmlanches1/LoginServidor/LoginServidor.fxml"));
         Parent root = loader.load();
 
         Scene scene = new Scene(root);
@@ -50,11 +34,23 @@ public class P0InicialProgramaController implements Initializable {
         stage.show();
     }
     
-    
-    
+    @FXML
+    private void servidor(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("jmlanches1/Servidor/Servidor.fxml"));
+        Parent root = loader.load();
+
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    /**
+     * Initializes the controller class.
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-       
+        // TODO
     }    
     
 }

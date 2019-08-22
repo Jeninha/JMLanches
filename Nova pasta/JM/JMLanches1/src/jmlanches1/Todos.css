@@ -13,6 +13,11 @@ and open the template in the editor.
     src: url('graduate-regular.ttf');
 }
 
+@font-face {
+    font-family: Welcome;
+    src: url('Welcome.ttf');
+}
+
 .button{
     -fx-text-fill: white;
     -fx-background-color: black;
