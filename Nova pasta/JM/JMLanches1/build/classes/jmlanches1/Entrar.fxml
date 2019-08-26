@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@Todos.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P1EntrarController">
+   <children>
+      <ImageView fitHeight="426.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Entrar.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="login" layoutX="376.0" layoutY="153.0" onAction="#login" prefHeight="42.0" prefWidth="178.0" text="Login" />
+      <Button fx:id="cadastrar" layoutX="376.0" layoutY="251.0" onAction="#cadastrar" prefHeight="42.0" prefWidth="178.0" text="Cadastrar" />
+      <Button fx:id="servidor" layoutX="585.0" layoutY="383.0" onAction="#loginServidor" opacity="0.0" prefHeight="32.0" prefWidth="48.0" text="Button" />
+      <ImageView fitHeight="67.0" fitWidth="48.0" layoutX="585.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/hamburguer.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

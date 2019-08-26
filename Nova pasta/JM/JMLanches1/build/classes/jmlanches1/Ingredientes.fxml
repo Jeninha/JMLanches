@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@Todos.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P52IngredientesController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Monde%20seu%20lanche%20(1).png" />
+         </image>
+      </ImageView>
+      <CheckBox layoutX="23.0" layoutY="95.0" mnemonicParsing="false" text="Hamburguer de Carne" />
+      <CheckBox layoutX="23.0" layoutY="124.0" mnemonicParsing="false" text="Hamburguer Vegano" />
+      <CheckBox layoutX="23.0" layoutY="153.0" mnemonicParsing="false" text="Hamburguer de Soja" />
+      <CheckBox layoutX="23.0" layoutY="240.0" mnemonicParsing="false" text="Bacon" />
+      <CheckBox layoutX="23.0" layoutY="211.0" mnemonicParsing="false" text="Calabresa" />
+      <CheckBox layoutX="23.0" layoutY="182.0" mnemonicParsing="false" text="Bife de Frango" />
+      <CheckBox layoutX="23.0" layoutY="329.0" mnemonicParsing="false" text="Presunto" />
+      <CheckBox layoutX="23.0" layoutY="300.0" mnemonicParsing="false" text="File de Carne" />
+      <CheckBox layoutX="23.0" layoutY="271.0" mnemonicParsing="false" text="Coraçãozinho" />
+      <CheckBox layoutX="223.0" layoutY="270.0" mnemonicParsing="false" text="Alface" />
+      <CheckBox layoutX="223.0" layoutY="299.0" mnemonicParsing="false" text="Cebola" />
+      <CheckBox layoutX="223.0" layoutY="328.0" mnemonicParsing="false" text="Milho" />
+      <CheckBox layoutX="223.0" layoutY="181.0" mnemonicParsing="false" text="Ovo Frito" />
+      <CheckBox layoutX="223.0" layoutY="210.0" mnemonicParsing="false" text="Carne de Sol" />
+      <CheckBox layoutX="223.0" layoutY="239.0" mnemonicParsing="false" text="Pimentão" />
+      <CheckBox layoutX="223.0" layoutY="152.0" mnemonicParsing="false" text="Cogumelo" />
+      <CheckBox layoutX="223.0" layoutY="123.0" mnemonicParsing="false" text="Aspargo" />
+      <CheckBox layoutX="223.0" layoutY="94.0" mnemonicParsing="false" text="Queijo" />
+      <CheckBox layoutX="377.0" layoutY="275.0" mnemonicParsing="false" text="Pão Fatiado" />
+      <CheckBox layoutX="377.0" layoutY="304.0" mnemonicParsing="false" text="Pão para Hamburguer" />
+      <CheckBox layoutX="377.0" layoutY="186.0" mnemonicParsing="false" text="Pepino" />
+      <CheckBox layoutX="377.0" layoutY="215.0" mnemonicParsing="false" text="Maionese Caseira" />
+      <CheckBox layoutX="377.0" layoutY="244.0" mnemonicParsing="false" text="Pão Integral" />
+      <CheckBox layoutX="377.0" layoutY="157.0" mnemonicParsing="false" text="Frango Desfiado" />
+      <CheckBox layoutX="377.0" layoutY="128.0" mnemonicParsing="false" text="Batata Frita" />
+      <CheckBox layoutX="377.0" layoutY="99.0" mnemonicParsing="false" text="Ervilha" />
+      <Text fx:id="Ingredientes" layoutX="182.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredientes">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Text>
+      <Button fx:id="montar" layoutX="458.0" layoutY="346.0" onAction="#bebida" prefHeight="42.0" prefWidth="131.0" text="Montar" />
+   </children>
+</AnchorPane>

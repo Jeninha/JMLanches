@@ -20,7 +20,6 @@ public class JMLanches1 extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("P0Inicial.fxml"));
-        
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();

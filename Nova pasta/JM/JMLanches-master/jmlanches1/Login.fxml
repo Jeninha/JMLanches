@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="371.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P31LoginController">
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Fundo%20mais%20claro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="328.0" fitWidth="266.0" layoutX="167.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/branco.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logo" fitHeight="150.0" fitWidth="200.0" layoutX="237.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Logo.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="204.0" layoutY="173.0" prefHeight="25.0" prefWidth="191.0" promptText="E-mail" />
+      <Button fx:id="seguir" layoutX="237.0" layoutY="281.0" onAction="#escolherlanche" prefHeight="31.0" prefWidth="126.0" text="Login" />
+      <PasswordField fx:id="senha" layoutX="204.0" layoutY="221.0" prefHeight="25.0" prefWidth="191.0" promptText="Senha" />
+   </children>
+</AnchorPane>

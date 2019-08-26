@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P32CadastrarController">
+    <stylesheets>
+        <URL value="@cadastrar.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="428.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Fundo%20mais%20claro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="335.0" fitWidth="568.0" layoutX="16.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/branco%20-%20Copia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="238.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Logo.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="76.0" layoutY="160.0" prefHeight="25.0" prefWidth="440.0" promptText="E-mail" />
+      <TextField layoutX="76.0" layoutY="206.0" prefHeight="25.0" prefWidth="217.0" promptText="Nome" />
+      <TextField layoutX="315.0" layoutY="206.0" prefHeight="25.0" prefWidth="200.0" promptText="Senha" />
+      <TextField layoutX="315.0" layoutY="254.0" prefHeight="25.0" prefWidth="200.0" promptText="Fone" />
+      <DatePicker layoutX="76.0" layoutY="254.0" prefHeight="25.0" prefWidth="217.0" promptText="      /      /     " />
+      <Button fx:id="cadastrar" layoutX="197.0" layoutY="296.0" onAction="#escolherlanche" prefHeight="37.0" prefWidth="192.0" text="Cadastrar" />
+   </children>
+</AnchorPane>

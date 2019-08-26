@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="entrar2" onKeyPressed="#clicou" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.P0InicialProgramaController">
+    <stylesheets>
+        <URL value="@Todos.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="230.0" layoutY="98.0" mnemonicParsing="false" onAction="#clicou2" text="Button" />
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fotos/Inicial.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

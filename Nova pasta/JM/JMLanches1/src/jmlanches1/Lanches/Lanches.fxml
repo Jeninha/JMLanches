@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="522.0" styleClass="mainFxmlClass" stylesheets="@Todos.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmlanches1.Lanches.P5LanchesController">
+   <children>
+      <ImageView fitHeight="369.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fotos/Fundo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="continuar" layoutX="458.0" layoutY="314.0" onAction="#bebida" prefHeight="34.0" prefWidth="95.0" text="Continuar" />
+      <ScrollBar layoutX="569.0" layoutY="22.0" orientation="VERTICAL" prefHeight="326.0" prefWidth="14.0" />
+      <ImageView fitHeight="137.0" fitWidth="149.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fotos/Lanches/salada.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="149.0" layoutX="184.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fotos/Lanches/Frango.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="138.0" layoutX="344.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fotos/Lanches/bacon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="149.0" layoutX="14.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fotos/Lanches/picanha.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="131.0" layoutX="184.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fotos/Lanches/vegano.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
